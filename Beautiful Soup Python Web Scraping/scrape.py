@@ -2,7 +2,7 @@ import bs4
 from urllib.request import urlopen as uReq
 from bs4 import BeautifulSoup as soup
 
-my_url = 'https://www.newegg.com/Video-Cards-Video-Devices/Category/ID-38?Tpk=graphics%20card'
+my_url = 'https://www.newegg.com/CPUs-Processors/Category/ID-34?Tpk=processors'
 
 # Opens the connection and grabs the page
 uClient = uReq(my_url)
